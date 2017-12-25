@@ -1,0 +1,13 @@
+.inputs {
+    flex: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs > div {
+    margin: 0px 2px;
+}
+
+.popover{
+    max-width: none;
+}

@@ -1,0 +1,24 @@
+.hints {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40px;
+}
+
+.hint {
+    flex: none;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px 5px 5px 5px; 
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 4px;
+}
+
+.correct {
+    background-color: red;    
+}
+
+.exists {
+    background-color: white;    
+}

@@ -1,0 +1,54 @@
+.pin {
+    flex: none;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 15px 15px 15px 15px; 
+    -moz-border-radius: 15px 15px 15px 15px;
+    -o-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.pin-0 {
+    border: 3px solid lightgray;
+}
+
+.pin-1 {
+    background-color: #9C6400;    
+}
+
+.pin-2 {
+    background-color: royalblue;    
+}
+
+.pin-3 {
+    background-color: yellow;    
+}
+
+.pin-4 {
+    background-color: darkolivegreen;
+}
+
+.pin-5 {
+    background-color: lightcoral;    
+}
+
+.pin-6 {
+    background-color: blueviolet;    
+}
+
+.pin-7 {
+    background-color: lightgray;    
+}
+
+.pin-8 {
+    background-color: red;    
+}
+
+.pin-99 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff32fb+0,2989d8+33,29ef26+68,ebff0f+100 */
+    background: rgb(255,50,251); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,50,251,1) 0%, rgba(41,137,216,1) 33%, rgba(41,239,38,1) 68%, rgba(235,255,15,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,50,251,1) 0%,rgba(41,137,216,1) 33%,rgba(41,239,38,1) 68%,rgba(235,255,15,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,50,251,1) 0%,rgba(41,137,216,1) 33%,rgba(41,239,38,1) 68%,rgba(235,255,15,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff32fb', endColorstr='#ebff0f',GradientType=0 ); /* IE6-9 */
+}

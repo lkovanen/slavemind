@@ -1,0 +1,9 @@
+.game {
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
