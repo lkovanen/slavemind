@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/bootstrap": "^3.3.39",
+    "@types/bootstrap": "^4.1.2",
     "@types/jest": "^20.0.8",
-    "@types/node": "^8.10.25",
+    "@types/node": "^10.5.8",
     "@types/react": "^16.4.9",
-    "@types/react-bootstrap": "^0.31.9",
-    "@types/react-dom": "^15.5.8",
+    "@types/react-bootstrap": "^0.32.11",
+    "@types/react-dom": "^16.0.7",
     "lodash": "^4.17.10",
-    "react": "^15.6.2",
-    "react-bootstrap": "^0.31.5",
-    "react-dom": "^15.6.2",
-    "react-scripts-ts": "2.8.0"
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
+    "react-scripts-ts": "2.17.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.116",
     "eslint-config-google": "^0.9.1",
-    "typed-css-modules": "^0.3.5"
+    "typed-css-modules": "^0.3.5",
+    "typescript": "^2.9.2"
   }
 }
