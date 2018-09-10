@@ -6,14 +6,16 @@
     "@types/bootstrap": "^4.1.2",
     "@types/jest": "^20.0.8",
     "@types/node": "^10.5.8",
-    "@types/react": "^16.4.9",
     "@types/react-bootstrap": "^0.32.11",
-    "@types/react-dom": "^16.0.7",
+    "history": "^4.7.2",
     "lodash": "^4.17.10",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.2",
-    "react-scripts-ts": "2.17.0"
+    "react-redux": "^5.0.7",
+    "react-scripts-ts": "2.17.0",
+    "redux-first-router": "0.0.16-next",
+    "redux-first-router-link": "^1.4.2"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -23,6 +25,9 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.116",
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-redux": "^6.0.7",
     "eslint-config-google": "^0.9.1",
     "typed-css-modules": "^0.3.5",
     "typescript": "^2.9.2"
