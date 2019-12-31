@@ -5,7 +5,8 @@ import { default as drawShapeAtOrigin } from './star';
 import { secondsSince } from './helpers';
 import { HSVtoColor } from './color';
 
-type AnimatedShape = {
+export type AnimatedShape = {
+  getLocation: () => Point,
   draw: (ctx: CanvasRenderingContext2D) => void,
   isVisible: () => boolean
 };
@@ -33,7 +34,7 @@ const drawShape = (ctx: CanvasRenderingContext2D, center: Point, size: number, r
   ctx.restore();
 };
 
-const animateShape = (center: Point, size: number) => {
+export const animateShape = (center: Point, size: number) => {
   const birth = new Date();
   const lifetimeSecond = randTime(60);
 
@@ -56,6 +57,7 @@ const animateShape = (center: Point, size: number) => {
   };
 
   return {
+    getLocation: () => location(secondsSince(birth)),
     draw: (ctx: CanvasRenderingContext2D) => {
       const t = secondsSince(birth);
       drawShape(ctx, location(t), currentSize(t), rotation(t), color);

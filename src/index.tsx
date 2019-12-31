@@ -7,6 +7,7 @@ import store from './js/store';
 
 import Slavemind from './components/slavemind/App';
 import Stars from './components/stars/App';
+import Firefly from './components/firefly/App';
 
 interface Props {
   appId: number | string;
@@ -14,9 +15,10 @@ interface Props {
 
 const App = ({ appId }: Props) => {
   switch (appId) {
-    case 1:
     case 'stars':
     return <Stars />;
+    case 'firefly':
+    return <Firefly />;
     default: 
     return <Slavemind />;
   }
